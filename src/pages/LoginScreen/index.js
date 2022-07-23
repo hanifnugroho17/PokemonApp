@@ -85,7 +85,7 @@ function LoginScreen({ navigation }) {
           <Text style={styles.animationText}>My Pokemon</Text>
         </Animatable.View>
         <View style={styles.bottomView}>
-          <Text style={styles.loginText}>Masuk</Text>
+          <Text style={styles.loginText}>Login</Text>
           <Formik
             initialValues={{ email: '', password: '' }}
             onSubmit={(values) => { loginUser(values); }}
